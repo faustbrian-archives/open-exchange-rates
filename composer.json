@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/openexchangerates-php-client",
     "description": "A OpenExchangeRates Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-openexchangerates", "openexchangerates", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "openexchangerates", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
