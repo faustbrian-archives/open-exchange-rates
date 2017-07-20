@@ -16,6 +16,21 @@ use BrianFaust\Http\Http;
 class Client
 {
     /**
+     * @var string
+     */
+    private $app;
+
+    /**
+     * Create a new OpenExchangeRates Client instance.
+     *
+     * @param string $app
+     */
+    public function __construct(string $app)
+    {
+        $this->app = $app;
+    }
+
+    /**
      * Create a new API service instance.
      *
      * @param string $name
