@@ -1,13 +1,19 @@
 {
-    "name": "faustbrian/openexchangerates-php-client",
+    "name": "plients/openexchangerates",
     "description": "A OpenExchangeRates Client for PHP",
-    "keywords": ["api", "http", "openexchangerates"],
+    "keywords": [
+        "api",
+        "http",
+        "openexchangerates"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "faustbrian/http": "^1.0"
@@ -18,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\OpenExchangeRates\\": "src"
+            "Plients\\OpenExchangeRates\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\OpenExchangeRates\\": "tests"
+            "Plients\\Tests\\OpenExchangeRates\\": "tests"
         }
     },
     "config": {
